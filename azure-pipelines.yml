@@ -9,9 +9,10 @@ steps:
       command: 'custom'
       customCommand: 'audit'
   - script: |
-      npm install
+      npm i
       npm install jest --save-dev
-      npm audit fix --force
+      npm run serve --fix
+      npm install --legacy-peer-deps
       npm test
     displayName: 'Run unit tests'
     continueOnError: true

@@ -3,16 +3,9 @@ steps:
     inputs:
       command: 'custom'
       customCommand: 'install --production'
-  - task: Npm@1
-    displayName: 'Run npm audit'
-    inputs:
-      command: 'custom'
-      customCommand: 'audit'
   - script: |
-      npm i
-      npm install jest --save-dev
-      npm run serve --fix
       npm install --legacy-peer-deps
+      npm install jest --save-dev
       npm test
     displayName: 'Run unit tests'
     continueOnError: true

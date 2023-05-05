@@ -11,6 +11,7 @@ steps:
   - script: |
       npm install
       npm install jest --save-dev
+      npm audit fix --force
       npm test
     displayName: 'Run unit tests'
     continueOnError: true

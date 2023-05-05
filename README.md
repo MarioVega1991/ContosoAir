@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/mariovegara0671/Parts%20Unlimited/_apis/build/status%2FMarioVega1991.ContosoAir?branchName=master)](https://dev.azure.com/mariovegara0671/Parts%20Unlimited/_build/latest?definitionId=26&branchName=master)
+
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
 
